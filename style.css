@@ -157,6 +157,7 @@ body {
     .container-2,
     .container-3 {
         width: 100%;
+        height: auto;
 
     }
 
@@ -165,13 +166,21 @@ body {
         flex-direction: column;
     }
 
-    .blog-1,
-    .blog-2 {
-        background-color: orchid;
+    .blog-1 {
+        height: 250px;
+        width: 200px;
+        font-size: 30px;
+        margin-left: 35px;
 
-        width: 300px;
+    }
 
 
+
+    .blog-2 img {
+        height: 330px;
+        width: 330px;
+        margin-top: 100px;
+        margin-right: 100px;
     }
 
     .players {
